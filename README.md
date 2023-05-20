@@ -7,6 +7,7 @@
 My very "original" development setup consisting of the following elements:
 
 - Homebrew
+- Alacritty
 - Neovim
 - Tmux
 - SKHD
@@ -14,5 +15,4 @@ My very "original" development setup consisting of the following elements:
 - Zsh
 
 ## Dependencies
-
 
