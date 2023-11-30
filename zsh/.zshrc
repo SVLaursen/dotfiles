@@ -132,6 +132,10 @@ export PATH="/Users/simonvestergaardlaursen/.rd/bin:$PATH"
 
 # ALIASES
 alias vim='nvim'
+alias cat='bat'
+alias exa='exa --icons'
+alias ls='exa --icons'
+alias lsa='exa --icons --long --header'
 
 # Zoxide config
 eval "$(zoxide init zsh)"

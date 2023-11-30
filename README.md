@@ -16,6 +16,8 @@ My very "original" development setup consisting of the following elements:
 - Oh-My-Zsh
 - Zoxide
 - Ripgrep
+- Exa
+- Bat
 
 ## Dependencies
 
