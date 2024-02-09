@@ -141,3 +141,6 @@ alias lsa='exa --icons --long --header'
 eval "$(zoxide init zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Shortcuts / functions
+function killport {   lsof -i tcp:$1 | awk 'NR!=1 {print $2}' | xargs kill }

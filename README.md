@@ -18,6 +18,7 @@ My very "original" development setup consisting of the following elements:
 - Ripgrep
 - Exa
 - Bat
+- Navi
 
 ## Dependencies
 
