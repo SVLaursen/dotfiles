@@ -138,7 +138,7 @@ alias ls='exa --icons'
 alias lsa='exa --icons --long --header'
 
 # Zoxide config
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
