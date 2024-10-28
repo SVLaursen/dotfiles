@@ -87,6 +87,7 @@ _fzf_comprun() {
 
 # Shortcuts / functions
 function killport {   lsof -i tcp:$1 | awk 'NR!=1 {print $2}' | xargs kill }
+function showport { lsof -i :$1 }
 
 # ========= WORKFLOWS ============
 # - Configuration workflows
@@ -95,6 +96,12 @@ alias tmuxcfg='nvim ~/.config/tmux/tmux.conf'
 alias reload-zsh='source ~/.zshrc'
 alias reload-tmux='tmux source-file ~/.config/tmux/tmux.conf'
 alias open-scripts='nvim ~/.config/scripts'
+alias vimcfg='nvim ~/.config/nvim/'
+
 # - Obsidian related workflows
-alias ov='nvim ~/Dev/personal/vault'
+export VAULT_NAME="vault"
+export VAULT_PATH="$HOME/Dev/personal/$VAULT_NAME/"
+alias ov="nvim ~/Dev/personal/$VAULT_NAME"
+alias vn='~/.config/scripts/newnote.sh'
+alias ovl='~/.config/scripts/newlog.sh'
 
