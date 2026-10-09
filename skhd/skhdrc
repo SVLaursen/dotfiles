@@ -146,19 +146,19 @@
 
 # ======================== MY CONFIG =============================
 # Focusing Windows
-alt - h : yabai -m window --focus west
-alt - j : yabai -m window --focus south
-alt - k : yabai -m window --focus north
-alt - l : yabai -m window --focus east
+shift + alt - h : yabai -m window --focus west
+shift + alt - j : yabai -m window --focus south
+shift + alt - k : yabai -m window --focus north
+shift + alt - l : yabai -m window --focus east
 
 # Swapping Windows
-shift + alt - h : yabai -m window --swap west
-shift + alt - j : yabai -m window --swap south
-shift + alt - k : yabai -m window --swap north
-shift + alt - l : yabai -m window --swap east
+cmd + shift + alt - h : yabai -m window --swap west
+cmd + shift + alt - j : yabai -m window --swap south
+cmd + shift + alt - k : yabai -m window --swap north
+cmd + shift + alt - l : yabai -m window --swap east
 
 # Floating / Unfloating Window + Center on Screen
-alt - t : yabai -m window --toggle float;\
+shift + alt - t : yabai -m window --toggle float;\
           yabai -m window --grid 4:4:1:1:2:2
 
 # Moving Floating Window
@@ -184,17 +184,17 @@ shift + alt - 6 : yabai -m space --focus 6
 shift + alt - 7 : yabai -m space --focus 7
 
 # Display Swapping (Left and right)
-alt - s : yabai -m display --focus west
-alt - g : yabai -m display --focus east
+shift + alt - s : yabai -m display --focus west
+shift + alt - g : yabai -m display --focus east
 
 # Desktop management - Close/Destroy Desktop
 cmd + alt - w : yabai -m space --destroy
 
 # Increase Window Size
-shift + alt - a : yabai -m window --resize left:-20:0
-shift + alt - s : yabai -m window --resize bottom:0:20
-shift + alt - w : yabai -m window --resize top:0:-20
-shift + alt - d : yabai -m window --resize right:20:0
+cmd + shift + alt - a : yabai -m window --resize left:-20:0
+cmd + shift + alt - s : yabai -m window --resize bottom:0:20
+cmd + shift + alt - w : yabai -m window --resize top:0:-20
+cmd + shift + alt - d : yabai -m window --resize right:20:0
 
 # Decrease Window Size
 shift + cmd - a : yabai -m window --resize left:20:0
@@ -206,9 +206,9 @@ shift + cmd - d : yabai -m window --resize right:-20:0
 shift + alt - e : yabai -m space --balance
 
 # Rotate Tree
-alt - r : yabai -m space --rotate 90
+shift + alt - r : yabai -m space --rotate 90
 
 # Mirror Tree y-axis
-alt - y : yabai -m space --mirror y-axis
+shift + alt - y : yabai -m space --mirror y-axis
 
 
